@@ -21,14 +21,14 @@
 }
 
 body {
-    -webkit-touch-callout: none;
+ -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-color: #4a1c83;
+    background-color: #131313;
     background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #4a1c83) );
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, black), color-stop(0.51, black) );
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -43,7 +43,7 @@ body {
 .app {
     background: url(../img/logo.png) no-repeat center top;
     position: absolute;
-    left: 23%;
+    left: 29%;
     top: 50%;
     height: 50px;
     width: 392px;
